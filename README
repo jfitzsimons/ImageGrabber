@@ -1,0 +1,10 @@
+ImageGrabber is a simple, .Net-based image downloader.  Given one or more URLs,
+it retrieves the specified URL(s), extracts all image links, and downloads
+each linked image into the current directory.
+
+This is not an image scraper, per se, since it doesn't download the images
+contained within a page, but rather the images to which the page links.
+
+Since this was written as an exercise in C#, all references and function
+calls are explicit.  There are no 'using' statements.
+
