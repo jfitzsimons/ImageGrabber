@@ -2,7 +2,7 @@
 // ImageGrabber.cs by Jeff Fitzsimons (7/2011)
 //-----------------------------------------------------------------------------
 // A dirt-simple image downloader.  This is a command-line app which accepts
-// one or more URLs as arguments.  It will download each URL, exctract all
+// one or more URLs as arguments.  It will download each URL, extract all
 // image links, and download each linked image.
 //
 // A named mutex is used to limit active downloads to one instance at a time.
