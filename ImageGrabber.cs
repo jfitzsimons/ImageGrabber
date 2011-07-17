@@ -60,7 +60,7 @@ public class ImageGrabber
             System.Text.RegularExpressions.MatchCollection matches = 
                 System.Text.RegularExpressions.Regex.Matches(
                     s, 
-                    ".*a href=\"([^\"]*.(jpg|png|gif))", 
+                    ".*a href=\"([^\"]+\\.(?:jpg|png|gif))", 
                     System.Text.RegularExpressions.RegexOptions.IgnoreCase);
 
             foreach (System.Text.RegularExpressions.Match match in matches)
